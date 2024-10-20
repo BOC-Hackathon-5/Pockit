@@ -1,0 +1,125 @@
+{
+  "name": "get_pocket_allocations",
+  "description": "Retrieve the percentage allocations for all four pockets",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "living_expenses": {
+        "type": "number",
+        "description": "The percentage allocation of the Living Expenses pocket"
+      },
+      "emergency_savings": {
+        "type": "number",
+        "description": "The percentage allocation of the Emergency Savings pocket"
+      },
+      "savings_and_investments": {
+        "type": "number",
+        "description": "The percentage allocation of the Savings & Investments pocket"
+      },
+      "splurge_money": {
+        "type": "number",
+        "description": "The percentage allocation of the Splurge Money pocket"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "living_expenses",
+      "emergency_savings",
+      "savings_and_investments",
+      "splurge_money"
+    ]
+  }
+}
+
+{
+  "name": "change_pocket_allocations",
+  "description": "Change the percentage allocations for all four pockets based on your conversation with the user",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "living_expenses": {
+        "type": "number",
+        "description": "The percentage allocation of the Living Expenses pocket"
+      },
+      "emergency_savings": {
+        "type": "number",
+        "description": "The percentage allocation of the Emergency Savings pocket"
+      },
+      "savings_and_investments": {
+        "type": "number",
+        "description": "The percentage allocation of the Savings & Investments pocket"
+      },
+      "splurge_money": {
+        "type": "number",
+        "description": "The percentage allocation of the Splurge Money pocket"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "living_expenses",
+      "emergency_savings",
+      "savings_and_investments",
+      "splurge_money"
+    ]
+  }
+}
+
+{
+  "name": "get_pocket_amounts",
+  "description": "Retrieve the current savings amount (money) for each pocket",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "living_expenses_amount": {
+        "type": "number",
+        "description": "The current savings amount (money) of the Living Expenses pocket"
+      },
+      "emergency_savings_amount": {
+        "type": "number",
+        "description": "The current savings amount (money) of the Emergency Savings pocket"
+      },
+      "savings_and_investments_amount": {
+        "type": "number",
+        "description": "The current savings amount (money) of the Savings & Investments pocket"
+      },
+      "splurge_money_amount": {
+        "type": "number",
+        "description": "The current savings amount (money) of the Splurge Money pocket"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "living_expenses_amount",
+      "emergency_savings_amount",
+      "savings_and_investments_amount",
+      "splurge_money_amount"
+    ]
+  }
+}
+
+{
+  "name": "get_boc_investment_products",
+  "description": "Returns info about available investment products of the Bank of Cyprus",
+  "strict": true,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "investment_product_description": {
+        "type": "string",
+        "description": "Description of available investment products by Bank of Cyprus (eTrader)"
+      },
+      "investment_product_link": {
+        "type": "string",
+        "description": "URL link to investment products by Bank of Cyprus (eTrader)"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "investment_product_description",
+      "investment_product_link"
+    ]
+  }
+}

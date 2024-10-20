@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 300 to 800*/
+
+.open-sans-400 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+	background-color: #FAFAFA;
+	font-family: "Open Sans", sans-serif;
+}
+
+.pockit-text-color{
+	color: rgb(0,196,180);
+	color: -webkit-linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+}
+
+h5.pockit-text-color{
+	color: rgb(0,196,180);
+	color: -webkit-linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+}
+
+.pockit-edit-perc-input{
+	border: none;
+	background: -webkit-linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+	font-weight: bold;
+	color: white;
+	caret-color: white;
+}
+
+.pockit-color{
+	color: rgb(0,196,180);
+}
+
+.pockit-edit-perc-input:focus{
+	color: white;
+	caret-color: white;
+}
+
+.pockit-edit-perc-input-group .input-group-text {
+	border: none;
+}
+
+.pockit-split-perc{
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.pockit-btn-send-active{
+	background: rgb(0,196,180);
+	background: -webkit-linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+}
+
+button.pockit-bot-dropdown{
+  border: 1px solid grey;
+}
+
+.pockit-card{
+	border-radius: 26px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 33px -17px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 33px -17px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 33px -17px rgba(0,0,0,0.3);
+}
+
+.pockit-sticky-nav {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   z-index: 2000;
+/*   background-color: red;*/
+/*   color: white;*/
+   text-align: center;
+}
+
+.pockit-sticky-nav .pockit-card{
+	opacity: 90%;
+	padding: 0px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
+
+	/*	Gradient Navbar */
+/*	background-color: rgb(0,196,180);*/
+/*    background: linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 80%);*/
+}
+
+.pockit-nav-btn{
+	/*padding: 0px;
+	margin: 0px;*/
+}
+
+.pockit-nav-btn i{
+	font-size: 26px;
+}
+
+.pockit-nav-btn-label{
+	font-size: 16px;
+}
+
+.pockit-badge{
+	background: rgb(0,196,180);
+	background: linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+}
+
+.pockit-secondary-badge{
+	background: rgb(33,150,243);
+	background: linear-gradient(120deg, rgba(33,150,243,1) 0%, rgba(79,195,247,1) 100%);
+}
+
+/*#pockit_assistant_selector:hover{
+	color: white;
+	background: rgb(14,133,123);
+	background: linear-gradient(120deg, rgba(14,133,123,1) 0%, rgba(102,208,217,1) 100%);
+	transition: background 10s;
+	border: 1px solid rgb(14,133,123);
+}*/
+
+.pockit-stat-block{
+  background: linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.pockit-stat-block h5{
+	color: #FFFFFF;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background-color: rgb(0,196,180);
+  background-color: linear-gradient(120deg, rgba(0,196,180,1) 0%, rgba(102,208,217,1) 100%);
+}
+
+.pockit-message-area{
+  position: relative;
+}
+
+.pockit-message-area textarea {
+  padding-right: 60px;
+}
+
+.pockit-message-area .btn[type="submit"]{
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+}
+
+/*.ai-loader{
+	width: 80px;
+	aspect-ratio: 1;
+	border: 10px solid #000;
+	box-sizing: border-box;
+	background: 
+	linear-gradient(#fff 0 0) 2px 50% /10px 20px,
+	linear-gradient(#fff 0 0) 48px 50%/10px 20px,
+	linear-gradient(#000 0 0) center/100% 20px,
+	radial-gradient(farthest-side,#0000 calc(98% - 10px),#fff calc(100% - 10px) 98%,#0000),
+	#000;
+	background-repeat: no-repeat;
+	filter: blur(4px) contrast(10); 
+	animation: l15 0.6s infinite alternate;
+}
+@keyframes l15 {
+	0%,30% {background-position:2px  50%,48px 50%,center,0 0}
+	100%   {background-position:10px 50%,40px 50%,center,0 0}
+}*/
+
+.ai-loader {
+  width: 65px;
+  aspect-ratio: 1;
+  position: relative;
+  border-radius: 20px;
+}
+.ai-loader:before,
+.ai-loader:after {
+  content: "";
+  position: absolute;
+  border-radius: 50px;
+  box-shadow: 0 0 0 3px inset rgb(0,196,180);
+  animation: l5 2.5s infinite;
+}
+.ai-loader:after {
+  animation-delay: -1.25s;
+  border-radius: 0;
+}
+@keyframes l5{
+  0%    {inset:0    35px 35px 0   }
+  12.5% {inset:0    35px 0    0   }
+  25%   {inset:35px 35px 0    0   }
+  37.5% {inset:35px 0    0    0   }
+  50%   {inset:35px 0    0    35px}
+  62.5% {inset:0    0    0    35px}
+  75%   {inset:0    0    35px 35px}
+  87.5% {inset:0    0    35px 0   }
+  100%  {inset:0    35px 35px 0   }
+}
+
+/*.typewriter {*/
+  /* overflow: hidden;*/ /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid grey;*/ /* The typwriter cursor */
+  /* white-space: nowrap;*/ /* Keeps the content on a single line */
+  /* margin: 0 auto;*/ /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em;*/ /* Adjust as needed */
+/*  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}*/
+
+/* The typing effect */
+/*@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}*/
+
+/* The typewriter cursor effect */
+/*@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}*/
